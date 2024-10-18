@@ -11,6 +11,8 @@ pipeline {
             steps {
                 // Clone the repository containing the Kubernetes YAML file
                 git url: 'https://github.com/ramra1d/devops.git'
+                // List the files in the workspace to confirm presence
+                sh 'ls -al'
             }
         }
 
