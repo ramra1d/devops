@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         KUBECONFIG_CREDENTIALS = 'kubeconfig'  // The ID of your kubeconfig credentials in Jenkins
-        DEPLOYMENT_YAML = 'nginx-deployment.yaml'  // Path to the YAML file in the repo
+        DEPLOYMENT_YAML = 'devops/nginx-deployment.yaml'  // Path to the YAML file in the repo
     }
 
     stages {
