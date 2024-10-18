@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Clone the repository containing the Kubernetes YAML file
-                git url: ''
+                git url: 'https://github.com/ramra1d/devops.git'
             }
         }
 
